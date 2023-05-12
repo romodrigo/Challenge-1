@@ -35,7 +35,7 @@ function btnDesencriptar(){
   const textoEncriptado = desencriptar(textArea.value)
   mensaje.value = textoEncriptado
   textArea.value = "";
-  
+
 }
     
 function desencriptar(stringDesencriptado){
@@ -53,6 +53,6 @@ function desencriptar(stringDesencriptado){
 }
 
 function copiar() {
-  
+  document.querySelector(".btn-copiar")
 }
   

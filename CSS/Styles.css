@@ -91,4 +91,30 @@ main {
 .informacion {
   color: #495057;
   font-size: 18px;
+  margin: 10px, 10px;
+}
+
+/* responsive design */
+
+@media (max-width: 57.5em) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-text-area {
+    margin: 10px, 30px, 10px, 0;
+  }
+  .mensaje {
+    background: #ffffff;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    width: 80%;
+    height: 20%;
+  }
 }
