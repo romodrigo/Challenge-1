@@ -95,7 +95,7 @@ main {
 }
 
 /* responsive design */
-
+/* 
 @media (max-width: 57.5em) {
   main {
     display: flex;
@@ -117,4 +117,4 @@ main {
     width: 80%;
     height: 20%;
   }
-}
+} */
