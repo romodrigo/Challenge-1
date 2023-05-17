@@ -14,6 +14,7 @@
 
 main {
   display: flex;
+  min-width: 250px;
   margin-bottom: 50px;
   margin-left: 80px;
 }
@@ -21,7 +22,7 @@ main {
 .text-area {
   border: none;
   color: #0a3871;
-  margin-top: 90px;
+  margin-top: 80px;
   text-transform: lowercase;
 }
 
@@ -94,9 +95,15 @@ main {
   margin: 10px, 10px;
 }
 
+.footer-p {
+  text-align: center;
+  color: darkgrey;
+  font-size: 0.4em;
+}
+
 /* responsive design */
-/* 
-@media (max-width: 57.5em) {
+
+@media (max-width: 480px) {
   main {
     display: flex;
     flex-direction: column;
@@ -106,15 +113,12 @@ main {
     margin: 10px, 30px, 10px, 0;
   }
   .mensaje {
-    background: #ffffff;
-    border: none;
-    border-radius: 24px;
-    color: #0a3871;
     margin-left: 10px;
     margin-top: 20px;
     padding-left: 20px;
     position: fixed;
+    background-image: none;
     width: 80%;
     height: 20%;
   }
-} */
+}

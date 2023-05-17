@@ -9,41 +9,45 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
-  <title>Encriptador de Texto</title>
+  <title>Challenge 1</title>
 </head>
 
 <body>
   <header>
+
     <img src="imagenes/Logo.png" alt="logo de Alura" class="logo">
 
 
+
+
   </header>
-  <main>
-    <section class="section-text-area">
-      <textarea class="text-area" cols="35" rows="4" placeholder="Ingrese el texto aqui"></textarea>
+  <div class="container">
+    <main>
+      <section class="section-text-area">
+        <textarea class="text-area" cols="35" rows="4" placeholder="Ingrese el texto aqui"></textarea>
 
-      <div>
-        <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
-      </div>
+        <div>
+          <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+        </div>
 
-      <div class="botones">
-        <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
-        <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
-      </div>
-    </section>
-    <section>
-      <textarea class="mensaje" cols="20" rows="10"></textarea>
-      <div>
-        <button class="btn-copiar" id="copy" onclick="copiar()">Copiar y pegar</button>
-      </div>
+        <div class="botones">
+          <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+          <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+      </section>
+      <section>
+        <textarea class="mensaje" cols="20" rows="10"></textarea>
+        <div>
+          <button class="btn-copiar" id="copy" onclick="copiar()">Copiar y pegar</button>
+        </div>
 
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <footer>
-
-  </footer>
-
+    <footer>
+      <p class="footer-p">Desarrollado por Rodrigo Morales</p>
+    </footer>
+  </div>
   <script src="Script/script.js"></script>
 
 </body>
